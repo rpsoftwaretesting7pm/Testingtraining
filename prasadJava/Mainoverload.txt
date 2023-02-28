@@ -1,0 +1,20 @@
+class Mainoverload
+{
+
+public static void main(String [] args)
+{
+main("Prasad");
+main();
+}
+
+
+public static void main(String a)
+{
+System.out.println("Main with string param");
+}
+
+public static void main()
+{
+System.out.println("Main without param");
+}
+}
